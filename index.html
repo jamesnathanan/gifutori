@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <!-- <script src="https://kit.fontawesome.com/2d7937158b.js" crossorigin="anonymous"></script> -->
+    <!-- Font awesome if you have download file -->
+    <script src="./js/all.js"></script>
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Arvo:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;400;700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Giftly Thailand | Gif-fu-to-ri Giftly Best gifts for babies all around the world</title>
+
+
+</head>
+
+<body>
+    <!-- palettes -->
+    <!-- https://coolors.co/eddcd2-fff1e6-fde2e4-fad2e1-c5dedd-dbe7e4-f0efeb-d6e2e9-bcd4e6-99c1de -->
+    <!-- https://coolors.co/ff9f1c-ffbf69-ffffff-cbf3f0-2ec4b6 -->
+    <!-- navbar -->
+    <!-- navbar-light means text gonna be dark in viceversa navbar-dark means text gonna be white so just change bg -->
+    <nav class="navbar py-3 navbar-light bg-isabelline navbar-expand-sm">
+        <!-- logo -->
+        <a href="#home" class="navbar-brand text-uppercase font-italic ml-2">
+            <img src="./img/gifu_logo-giftly-white.png" alt="main icons" style="height: auto; width: 3.5rem;" id="logo">
+            <div class="text-center mt-1 text-white" id="shopname" style="display: none;">
+                <small>Giftly</small>
+            </div>
+        </a>
+        <button type="button" class="navbar-toggler" data-toggle="collapse" data-target="#navbarLinks">
+            <span class="navbar-toggler-icon" style="color: black !important;"></span>
+        </button>
+        <!-- use justify-content-end to set nav items to the right -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarLinks">
+            <ul class="navbar-nav ">
+                <li class="nav-item"><a href="#home" class="nav-link navItem">home</a></li>
+                <li class="nav-item"><a href="#aboutus" class="nav-link navItem">about us</a></li>
+                <li class="nav-item"><a href="#products" class="nav-link navItem">products</a></li>
+                <li class="nav-item"><a href="#contact" class="nav-link navItem">contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <!-- end of navbar -->
+    <!-- hero section -->
+    <section class="section-hero" id="home">
+        <div class="container-fluid">
+            <div class="row height video-container justify-content-start">
+                <div class="bg-video">
+                    <video class="bg-video__content" autoplay muted loop>
+                        <!-- video by max vakhtbovych from pexels -->
+                        <source src="img/gifu_pexels-max-vakhtbovych-7394150.mp4" type="video/mp4"> 
+                        Your Browser is not supported
+                    </video>
+                </div>
+                <div class="col pt-1 open-text ml-lg-5">
+                    <div>
+                        <h5 class="lead">welcome to <span class="shop-name-text text-shadow d-sm-inline d-block">Giftly Thailand</span></h5>
+                    </div>
+                    
+                    <div class="mt-5">
+                        <h1 class="text-dark">เพราะลูกคือ...</h1>
+                        <h1 class="font-weight-bold text-tiffany text-shadow">ของขวัญแห่งชีวิต   ที่ประเมินค่ามิได้</h1>
+                        <h6 class="mt-3 text-dark">ทุกสิ่งที่จำเป็นต่อสุขภาพ และความสะดวกสบายของลูกน้อย</h6>
+                        <h6 class="text-dark">จึงเป็นสิ่งที่พ่อและแม่ใส่ใจ คัดสรรมาให้อย่างพิถีพิถัน นับตั้งแต่วินาทีที่เด็กน้อยลืมตาดูโลก</h6>
+                    </div>
+                    <a href="#aboutus" class="btn btn-info mt-5 w-md-25 ">เพิ่มเติม &rarr;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end of hero section -->
+
+    <!-- booking section -->
+    <section class="section-book" id="contact">
+        <div class="container-fluid">
+            <!-- booking card for medium screen -->
+            <div class="row justify-content-center align-items-center height-100 d-none d-md-flex">
+                <div class="col-11">
+                    <div class="book">
+                        <div class="book__form">
+                            <form action="https://formspree.io/f/mdoypeor" class="form" method="POST">
+    
+                                <div class="mb-1">
+                                    <h4 class="">
+                                        สมัครรับข่าวสารจากเราวันนี้  
+                                        <h6>รับ<span class="text-danger">โค้ดส่วนลด</span>ฟรีทันที</h6>
+                                        <h5 class="lead">subscribe for special discount</h5>
+                                    </h4>
+                                </div>
+    
+                                <div class="form__group mt-3">
+                                    <input type="text" class="form__input" placeholder="Full Name" id="name" name="name" required>
+                                    <label for="name" class="form__label" >ชื่อ และ นามสกุล</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" name="_replyto" class="form__input" placeholder="Email address" id="email" required>
+                                    <label for="email" class="form__label">Email อีเมลล์</label>
+                                </div>
+                                <!-- <div class="form__group">
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="small" name="size">
+                                        <label for="small" class="form__radio-label">
+                                            <span class="form__radio-button"></span>
+                                            small kids
+                                        </label>
+                                    </div>
+                                    <div class="form__radio-group">
+                                        <input type="radio" class="form__radio-input" id="large" name="size">
+                                        <label for="large" class="form__radio-label">
+                                            <span class="form__radio-button"></span>    
+                                            grown up kids
+                                        </label>
+                                    </div>
+                                </div> -->
+                                <div class="form__group">
+                                    <button class="btn btn-outline-info" type="submit" value="Send">Next &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- end of booking card for medium screen -->
+
+            <!-- booking card for very to small screen -->
+            <div class="row justify-content-center align-items-center height-100 d-md-none" id="contact">
+                <div class="col-12">
+                    <div class="book2">
+                        <div class="book2__form">
+                            <form action="https://formspree.io/f/mdoypeor" class="form" method="POST">
+    
+                                <div class="mb-1">
+                                    <h4 class="">
+                                        !!สมัครรับข่าวสารจากเราวันนี้  
+                                        <h6>รับ<span class="text-danger">โค้ดส่วนลด</span>ฟรีทันที</h6>
+                                        <h5 class="lead mb-5">subscribe for special discount</h5>
+                                    </h4>
+                                </div>
+    
+                                <div class="form__group mt-3">
+                                    <input type="text" class="form__input form2__input" placeholder="Full Name" id="name" name="name" required>
+                                    <label for="name" class="form__label">กรุณาใส่ ชื่อ และ นามสกุล</label>
+                                </div>
+                                <div class="form__group">
+                                    <input type="email" class="form__input form2__input" placeholder="Email address" id="email" name="_replyto" required>
+                                    <label for="email" class="form__label">กรุณาใส่ อีเมลล์</label>
+                                </div>
+                                
+                                <div class="form__group">
+                                    <button class="btn btn-info w-50" type="submit" name="Send">Next &rarr;</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                
+            </div>
+            <!-- end of booking card for very t0 small screen -->
+
+        </div>
+        
+    </section>
+
+    <!-- end of booking section -->
+
+    <!-- about us section -->
+    <section class="aboutus pt-5 bg-isabelline " id="aboutus" >
+        <div class="container-fluid">
+            <!-- title -->
+            <div class="row">
+                <div class="col text-center mt-5">
+                    <h1 class="display-4 text-dark mb-0 mt-2">
+                        <strong>Giftly</strong>
+                    </h1>
+                    <div class="bg-tiffany title-underline"></div>
+                    <p class="mt-2 text-capitalize text-muted">(กิ๊ฟฝุโตริ)</p>
+                </div>
+            </div>
+            <!-- end of title -->
+
+            <div class="row">
+                <!-- paragraph -->
+                <div class="col-md-6 my-4 px-auto mx-auto aboutus-text">
+                    <div class="ml-5 mr-0 ">
+                        <h4 class="lead font-weight-bold my-3 text-muted">ผลิตภัณฑ์ที่คุณและลูกน้อยจะต้องตกหลุมรัก</h4>
+                        <p class="text-secondary">ผลิตภัณฑ์ของ Giftly นั้นถูกออกแบบมาอย่างพิถีพิถัน เพื่อดูแลเด็กน้อยให้ได้รับความสะดวกสบายสูงสุด อบอุ่น สะอาด มีอนามัย และ ปลอดภัย</p>
+    
+                        <h4 class="lead font-weight-bold mt-5 text-muted">สัมผัสประสบการณ์อีกขั้นของความสบาย</h4>
+                        <p class="text-secondary">ผสมผสานปรัชญา และ เทคโนโลยี เข้าด้วยกันเป็นหนึ่งเดียว เพื่อจุดมุ่งหมายสูงสุด คือความพึงพอใจ ของพ่อแม่และลูกน้อย</p>
+    
+                        <a href="#contact" class="btn btn-outline-info mt-3">สนใจข้อมูลเพิ่มเติม &rarr;</a>
+
+                    </div>
+                </div>
+                <!-- set of product images -->
+                <div class="col-md-6 my-4 product-images ml-md-0" id="products">
+                    <!-- composition -->
+                    <div class="composition">
+                        <img src="./img/gifu_001 03.jpg" alt="Photo 1" class="composition__photo composition__photo--p1 img-fluid">
+                        <img src="./img/gifu_003 Japanese 1.png" alt="Photo 2" class="composition__photo composition__photo--p2 img-fluid">
+                        <img src="./img/gifu_004 Cute Bunny Blue 1.png" alt="Photo 3" class="composition__photo composition__photo--p3 img-fluid">
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+    <!-- end of about us section -->
+
+
+
+
+
+
+    <footer>
+        <div class="container-fluid bg-tiffany">
+            <div class="row">
+                <div class="col w-100 d-flex flex-column footer-title justify-content-end text-right">
+                    <h6 class="text-muted py-auto my-auto">© Giftly Thailand 2021 </h6> 
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+    <!-- jQuery -->
+    <script src="./js/jquery-3.6.0.min.js"></script>
+    <!-- Bootstrap JS -->
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
