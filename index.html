@@ -179,7 +179,7 @@
     <!-- end of booking section -->
 
     <!-- about us section -->
-    <section class="aboutus pt-5 bg-isabelline " id="aboutus" >
+    <section class="aboutus pt-1 bg-isabelline " id="aboutus" >
         <div class="container-fluid">
             <!-- title -->
             <div class="row">
@@ -188,16 +188,16 @@
                         <strong>Giftly</strong>
                     </h1>
                     <div class="bg-tiffany title-underline"></div>
-                    <p class="mt-2 text-capitalize text-muted">(กิ๊ฟฝุโตริ)</p>
+                    <p class="mt-1 text-capitalize text-muted">(กิ๊ฟฝุโตริ)</p>
                 </div>
             </div>
             <!-- end of title -->
 
-            <div class="row">
+            <div class="row flex-md-column flex-lg-row align-items-center">
                 <!-- paragraph -->
-                <div class="col-md-6 my-4 px-auto mx-auto aboutus-text">
-                    <div class="ml-5 mr-0 ">
-                        <h4 class="lead font-weight-bold my-3 text-muted">ผลิตภัณฑ์ที่คุณและลูกน้อยจะต้องตกหลุมรัก</h4>
+                <div class="col-md-8 col-lg-6 mt-0 px-auto mx-auto aboutus-text">
+                    <div class="ml-5 mr-0 mt-0">
+                        <h4 class="lead font-weight-bold my-1 text-muted">ผลิตภัณฑ์ที่คุณและลูกน้อยจะต้องตกหลุมรัก</h4>
                         <p class="text-secondary">ผลิตภัณฑ์ของ Giftly นั้นถูกออกแบบมาอย่างพิถีพิถัน เพื่อดูแลเด็กน้อยให้ได้รับความสะดวกสบายสูงสุด อบอุ่น สะอาด มีอนามัย และ ปลอดภัย</p>
     
                         <h4 class="lead font-weight-bold mt-5 text-muted">สัมผัสประสบการณ์อีกขั้นของความสบาย</h4>
@@ -208,13 +208,20 @@
                     </div>
                 </div>
                 <!-- set of product images -->
-                <div class="col-md-6 my-4 product-images ml-md-0" id="products">
+                <div class="col-lg-6 my-4 product-images ml-md-0 d-none d-lg-block" id="products">
                     <!-- composition -->
                     <div class="composition">
                         <img src="./img/gifu_001 03.jpg" alt="Photo 1" class="composition__photo composition__photo--p1 img-fluid">
                         <img src="./img/gifu_003 Japanese 1.png" alt="Photo 2" class="composition__photo composition__photo--p2 img-fluid">
                         <img src="./img/gifu_004 Cute Bunny Blue 1.png" alt="Photo 3" class="composition__photo composition__photo--p3 img-fluid">
                     </div>
+                </div>
+
+                <!-- product images when small screen -->
+                <div class="col col-sm-10 my-4 d-lg-none mx-auto">
+                    <img src="./img/gifu_001 03.jpg" alt="" class="img-fluid my-2 mx-auto">
+                    <img src="./img/gifu_003 Japanese 1.png" alt="" class="img-fluid my-2 mx-auto">
+                    <img src="./img/gifu_004 Cute Bunny Blue 1.png" alt="" class="img-fluid my-2 mx-auto">
                 </div>
             </div>
 
