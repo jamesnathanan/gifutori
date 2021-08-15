@@ -383,7 +383,7 @@ body {
   position: relative;
 }
 .composition__photo {
-  width: 30%;
+  width: 45%;
   box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.4);
   border-radius: 6px;
   position: absolute;
@@ -392,16 +392,16 @@ body {
   outline-offset: 0.5rem;
 }
 .composition__photo--p1 {
-  left: 25%;
-  top: 1.5rem;
+  right: 20%;
+  top: 40%;
 }
 .composition__photo--p2 {
-  right: 25%;
-  top: 2.5rem;
+  top: 10rem;
+  right: 35%;
 }
 .composition__photo--p3 {
-  left: 35%;
-  top: 10rem;
+  left: 0;
+  top: 0;
 }
 .composition__photo:hover {
   outline: 0.2rem dotted var(--tiffanyBlue);
